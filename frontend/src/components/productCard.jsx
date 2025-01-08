@@ -8,7 +8,7 @@ import { MdDeleteOutline } from "react-icons/md";
 import { useColorModeValue } from './ui/color-mode'
 import { Toaster, toaster } from "@/components/ui/toaster"
 
-const productCard = ({product}) => {
+const ProductCard = ({product}) => {
   const [updatedProduct, setUpdatedProduct] = useState(product);
 
   const textColor = useColorModeValue('gray.700', 'gray.100')
