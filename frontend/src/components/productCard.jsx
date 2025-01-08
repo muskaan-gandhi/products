@@ -135,4 +135,4 @@ const ProductCard = ({product}) => {
   )
 }
 
-export default productCard
+export default ProductCard
